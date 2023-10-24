@@ -1,6 +1,6 @@
 import React from "react";
 
-export const DashboardIcon = () => {
+export const DashboardIcon: React.FC = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

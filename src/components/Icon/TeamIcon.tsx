@@ -1,5 +1,3 @@
-import React from "react";
-
 export const TeamIcon = () => {
   return (
     <svg
