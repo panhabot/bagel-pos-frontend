@@ -93,12 +93,13 @@ React Dashboard for POS sytem. Created to give a headup and fast paced for creat
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Dashboard Page
-    - [ ] Line Chart
-    - [ ] Bar Chart
-    - [ ] Displat Card
-    - [ ] Transaction Card
-    - [ ] Top Dishes
+- [x] Dashboard Page
+    - [x] Line Chart
+    - [x] Bar Chart
+    - [x] Displat Card
+    - [x] Transaction Card
+    - [x] Top Dishes
+- [x] Order Page
 - [ ] Add Menu Page
     - [ ] Menu Card
     - [ ] Category
