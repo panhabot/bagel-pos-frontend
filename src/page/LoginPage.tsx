@@ -37,12 +37,12 @@ export const LoginPage: React.FC = () => {
     navigate(PageRoutes.INDEX);
   }
   return (
-    <div className="w-full h-screen grid grid-cols-2">
-      <div className="bg-black flex items-center justify-center">
+    <div className="w-full h-screen grid grid-cols-none grid-rows-3 md:grid-rows-none md:grid-cols-2">
+      <div className="bg-black flex items-center justify-center ">
         <img src={logo} alt="logo" width={500} height={500} />
       </div>
 
-      <div className="flex flex-col items-center justify-center ">
+      <div className="flex flex-col items-center justify-start md:justify-center row-span-2 md:row-span-1">
         <Label className="my-4 font-bold text-[36px]">Login</Label>
         <Form {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)}>
