@@ -4,6 +4,7 @@ import { Dashboard } from "@/page/DashboardPage";
 import { MainTemplate } from "@/template/MainTemplate";
 import { Route, Routes } from "react-router-dom";
 import { OrderPage } from "@/page/OrderPage";
+import { LoginPage } from "@/page/LoginPage";
 
 export const RouteConfig: React.FC = () => {
   return (
@@ -13,6 +14,8 @@ export const RouteConfig: React.FC = () => {
           <Route index element={<Dashboard />} />
           <Route path={PageRoutes.ORDER} element={<OrderPage />} />
         </Route>
+
+        <Route path={PageRoutes.LOGIN} element={<LoginPage />} />
       </Routes>
     </>
   );

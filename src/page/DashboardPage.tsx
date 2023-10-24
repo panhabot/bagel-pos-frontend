@@ -13,10 +13,30 @@ export const Dashboard: React.FC = () => {
   return (
     <div className="relative p-4 w-full overflow-scroll h-full">
       <div className="grid w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
-        <InfoCard className="col-span-1" />
-        <InfoCard className="col-span-1" />
-        <InfoCard className="col-span-1" />
-        <InfoCard className="col-span-1" />
+        <InfoCard
+          type="revenue"
+          title="Total Revenue"
+          subtitle="$56,231.77"
+          state="+20.1% this month"
+        />
+        <InfoCard
+          type="customer"
+          title="Total Customer"
+          subtitle="25, 000"
+          state="+10% this month"
+        />
+        <InfoCard
+          type="sales"
+          title="Total Sales"
+          subtitle="35, 000"
+          state="+70% this month"
+        />
+        <InfoCard
+          type="order"
+          title="Today's Order"
+          subtitle="25"
+          state="+5 more than Yesterday's Order"
+        />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-2">
         <Card className={`w-full`}>
