@@ -8,7 +8,7 @@ type Props = {
 };
 
 export const InfoCard: React.FC<Props> = (props) => {
-  const { type, className } = props;
+  const { className } = props;
   return (
     <Card className={`${className} w-full`}>
       <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">

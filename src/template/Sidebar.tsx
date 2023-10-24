@@ -1,6 +1,5 @@
 import { Logo } from "@/components/Icon/Logo";
 import { PageRoutes } from "@/constants";
-import { useAppStore } from "@/stores/AppStore";
 import {
   ArchiveIcon,
   CardStackIcon,
@@ -14,7 +13,6 @@ import {
 import React from "react";
 import { Link } from "react-router-dom";
 export const Sidebar: React.FC = () => {
-  const setPageTitle = useAppStore((state) => state.setPageTitle);
   return (
     <aside className="hidden relative mt-12   md:block w-[280px] p-4 border border-r">
       <div className="w-full h-[120px] flex items-center justify-center">

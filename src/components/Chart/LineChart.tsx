@@ -1,12 +1,10 @@
-import React, { PureComponent } from "react";
+import React from "react";
 import {
   LineChart,
   Line,
   XAxis,
   YAxis,
-  CartesianGrid,
   Tooltip,
-  Legend,
   ResponsiveContainer,
 } from "recharts";
 
@@ -76,8 +74,9 @@ const data = [
   },
 ];
 
-export const LineChartComponent: React.FC<Props> = (props) => {
-  const { className } = props;
+export const LineChartComponent: React.FC<Props> = ({ className }) => {
+  console.log(className);
+
   return (
     <ResponsiveContainer width="100%" height={350}>
       <LineChart
