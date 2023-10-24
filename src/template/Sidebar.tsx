@@ -8,6 +8,7 @@ import {
   ExitIcon,
   FileTextIcon,
   PersonIcon,
+  TableIcon,
 } from "@radix-ui/react-icons";
 import React from "react";
 export const Sidebar = () => {
@@ -43,7 +44,18 @@ export const Sidebar = () => {
             </span>
           </a>
         </li>
+        <li>
+          <a
+            href=""
+            className="group flex items-center justify-between rounded-lg px-4 py-2 text-black hover:bg-gray-100 hover:text-gray-700"
+          >
+            <div className="flex items-center gap-2">
+              <TableIcon />
 
+              <span className="text-sm "> Table </span>
+            </div>
+          </a>
+        </li>
         <li>
           <a
             href=""
