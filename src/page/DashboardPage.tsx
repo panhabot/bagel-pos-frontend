@@ -9,9 +9,9 @@ import { CalendarIcon } from "@radix-ui/react-icons";
 import React from "react";
 import { ScrollArea } from "@/components/ui/scroll-area";
 
-export const Dashboard = () => {
+export const Dashboard: React.FC = () => {
   return (
-    <div className="p-4 w-full overflow-scroll h-full">
+    <div className="relative p-4 w-full overflow-scroll h-full">
       <div className="grid w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
         <InfoCard className="col-span-1" />
         <InfoCard className="col-span-1" />
