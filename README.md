@@ -60,8 +60,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img width="1512" alt="Screenshot 2023-10-24 at 7 08 31 PM" src="https://github.com/panhabot/bagel-pos-frontend/assets/45727463/3e43abf7-ddfc-4e5d-a822-c242fefac6f3">
 
+<img width="1512" alt="Screenshot 2023-10-24 at 7 08 31 PM" src="https://github.com/panhabot/bagel-pos-frontend/assets/45727463/ebb4b330-05f7-4ac1-acb8-0f82766f7ef1">
 
 React Dashboard for POS sytem. Created to give a headup and fast paced for creating a functioning application for your business.
 
