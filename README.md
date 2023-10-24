@@ -157,7 +157,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [issues-shield]: https://img.shields.io/github/issues/panhabot/bagel-pos-frontend.svg?style=for-the-badge
 [issues-url]: https://github.com/panhabot/bagel-pos-frontend/issues
 [license-shield]: https://img.shields.io/github/license/panhabot/bagel-pos-frontend.svg?style=for-the-badge
-[license-url]: https://github.com/panhabot/bagel-pos-frontend/blob/master/LICENSE.txt
+[license-url]: https://github.com/panhabot/bagel-pos-frontend/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: [https://linkedin.com/in/othneildrew](https://www.linkedin.com/in/kong-panhabot-743832190/)
 [product-screenshot]: images/screenshot.png
