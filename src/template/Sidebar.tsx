@@ -96,11 +96,13 @@ export const Sidebar: React.FC = () => {
           </a>
         </li>
       </ul>
-      <div className="absolute bottom-4 flex items-center cursor-pointer">
-        <ExitIcon className="mx-2 text-[#b30000]" />
+      <Link to={PageRoutes.LOGIN}>
+        <div className="absolute bottom-4 flex items-center cursor-pointer">
+          <ExitIcon className="mx-2 text-[#b30000]" />
 
-        <span className="text-[14px] text-[#b30000]">Logout</span>
-      </div>
+          <span className="text-[14px] text-[#b30000]">Logout</span>
+        </div>
+      </Link>
     </aside>
   );
 };
