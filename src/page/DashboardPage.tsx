@@ -89,7 +89,7 @@ export const Dashboard: React.FC = () => {
                   <div className="flex items-center pt-2">
                     <CalendarIcon className="mr-2 h-4 w-4 opacity-70" />{" "}
                     <span className="text-xs text-muted-foreground">
-                      Joined December 2021
+                      Created December 2021
                     </span>
                   </div>
                 </div>
@@ -105,7 +105,7 @@ export const Dashboard: React.FC = () => {
                   <div className="flex items-center pt-2">
                     <CalendarIcon className="mr-2 h-4 w-4 opacity-70" />{" "}
                     <span className="text-xs text-muted-foreground">
-                      Joined December 2021
+                      Created December 2021
                     </span>
                   </div>
                 </div>
@@ -121,7 +121,7 @@ export const Dashboard: React.FC = () => {
                   <div className="flex items-center pt-2">
                     <CalendarIcon className="mr-2 h-4 w-4 opacity-70" />{" "}
                     <span className="text-xs text-muted-foreground">
-                      Joined December 2021
+                      Created December 2021
                     </span>
                   </div>
                 </div>
@@ -137,7 +137,7 @@ export const Dashboard: React.FC = () => {
                   <div className="flex items-center pt-2">
                     <CalendarIcon className="mr-2 h-4 w-4 opacity-70" />{" "}
                     <span className="text-xs text-muted-foreground">
-                      Joined December 2021
+                      Created December 2021
                     </span>
                   </div>
                 </div>
@@ -153,7 +153,7 @@ export const Dashboard: React.FC = () => {
                   <div className="flex items-center pt-2">
                     <CalendarIcon className="mr-2 h-4 w-4 opacity-70" />{" "}
                     <span className="text-xs text-muted-foreground">
-                      Joined December 2021
+                      Created December 2021
                     </span>
                   </div>
                 </div>

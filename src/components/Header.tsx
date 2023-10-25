@@ -14,6 +14,7 @@ import { BellIcon } from "@radix-ui/react-icons";
 import { useAppStore } from "@/stores/AppStore";
 import { useLocation } from "react-router-dom";
 import { PageRoutes } from "@/constants";
+import { MobileMenu } from "@/template/MobileMenu";
 export const Header: React.FC = () => {
   const title = useAppStore((state) => state.pageTitle);
   const setTitle = useAppStore((state) => state.setPageTitle);
@@ -27,9 +28,13 @@ export const Header: React.FC = () => {
   }, [location]);
   return (
     <header className="fixed  border-b top-0 z-50  w-full h-[54px] flex items-center justify-between px-4 py-2  bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <span className="tracking-tight font-medium text-[24px] border-l-4 border-blck px-4">
-        {title}
-      </span>
+      <div className="flex items-center">
+        <MobileMenu className="flex md:hidden mr-4" />
+        <span className="tracking-tight font-medium text-[24px] border-l-4 border-blck px-4">
+          {title}
+        </span>
+      </div>
+
       <div className="flex items-center">
         <div className="w-6 mx-6 relative cursor-pointer">
           <BellIcon className=" " width={22} height={22} />

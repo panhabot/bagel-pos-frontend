@@ -60,3 +60,14 @@
     @apply bg-background text-foreground;
   }
 }
+
+
+::-webkit-scrollbar {
+  /* Customize the scrollbar width */
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  /* Customize the scrollbar thumb */
+  background-color: black;
+
+}
