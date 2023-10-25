@@ -78,7 +78,7 @@ export const MenuCard: React.FC<Props> = ({ item }) => {
         <DialogTrigger>
           <Card className="col-span-1 cursor-pointer">
             <CardHeader className="p-4 text-start mt-2">
-              <div className="   flex items-center justify-between">
+              <div className="flex  items-center justify-between">
                 <span className="text-xs rounded font-medium flex items-center justify-center text-center w-[80px] h-[20px] bg-primary">
                   {item.state}
                 </span>
@@ -90,14 +90,18 @@ export const MenuCard: React.FC<Props> = ({ item }) => {
                       : "text-[#b30000] border-[#b30000]"
                   }`}
                 >
-                  {item.status}
+                  <span>{item.status}</span>
                 </Badge>
               </div>
 
-              <CardTitle>{item.title}</CardTitle>
+              <CardTitle>
+                <span>{item.title}</span>
+              </CardTitle>
               <CardDescription>
                 <div className="flex items-center">
-                  <CalendarIcon className="mr-2 h-4 w-4 opacity-70" />
+                  <span>
+                    <CalendarIcon className="mr-2 h-4 w-4 opacity-70" />
+                  </span>
                   <span className="text-xs text-muted-foreground">
                     Created December 2021
                   </span>
