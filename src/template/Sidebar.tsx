@@ -12,9 +12,13 @@ import {
 
 import React from "react";
 import { Link } from "react-router-dom";
-export const Sidebar: React.FC = () => {
+
+type Props = {
+  className?: string;
+};
+export const Sidebar: React.FC<Props> = ({ className }) => {
   return (
-    <aside className="hidden relative mt-12   md:block w-[280px] p-4 border border-r">
+    <aside className={className}>
       <div className="w-full h-[120px] flex items-center justify-center">
         <Logo />
       </div>
@@ -58,14 +62,14 @@ export const Sidebar: React.FC = () => {
           </a>
         </li>
         <li>
-          <a
-            href=""
+          <Link
+            to={PageRoutes.MENU}
             className="flex items-center gap-2 rounded-lg px-4 py-2 text-black hover:bg-gray-100 hover:text-gray-700"
           >
             <CardStackIcon />
 
             <span className="text-sm "> Menu </span>
-          </a>
+          </Link>
         </li>
 
         <li>

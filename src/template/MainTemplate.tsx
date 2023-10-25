@@ -7,7 +7,7 @@ export const MainTemplate: React.FC = () => {
     <div className="flex w-full h-[100svh] overflow-hidden">
       <Header />
 
-      <Sidebar />
+      <Sidebar className="hidden relative mt-12   md:block w-[280px] p-4 border border-r" />
 
       <div className="flex-1 relative mt-12">
         <Outlet />
