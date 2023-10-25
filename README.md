@@ -104,8 +104,10 @@ React Dashboard for POS sytem. Created to give a headup and fast paced for creat
     - [x] Top Dishes
 - [x] Order Page
 - [ ] Add Menu Page
-    - [ ] Menu Card
-    - [ ] Category
+    - [x] Menu Card
+    - [x] Category
+    - [ ] Add/Edit Menu Form (Issue: Mobile Reponsive)
+    - [ ] Search Input
 - [ ] Account Page
     - [ ] Change User Setting
     - [ ] Change Theme
