@@ -71,7 +71,7 @@ React Dashboard for POS sytem. Created to give a headup and fast paced for creat
 
 ### Built With
 
-[![React][React.js]][React-url] [![Vite][Vite.js]][Vite-url]
+[![React][React.js]][React-url] [![Vite][Vite.js]][Vite-url] [![ShadUI][ShadUI]][ShadUI-url] [![Zustand][Zustand]][Zustand-url] 
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -170,3 +170,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [React-url]: https://reactjs.org/
 [Vite.js]: https://img.shields.io/badge/VITE-20232A?style=for-the-badge&logo=vite
 [Vite-url]: https://vitejs.dev/
+[ShadUI]: https://img.shields.io/badge/shadcn-20232A?style=for-the-badge&logo=shadcn
+[ShadUI-url]: https://ui.shadcn.com/
+[Zustand]: https://img.shields.io/badge/zustand-20232A?style=for-the-badge&logo=zustand
+[Zustand-url]: [https://ui.shadcn.com/](https://docs.pmnd.rs/zustand/getting-started/introduction)https://docs.pmnd.rs/zustand/getting-started/introduction
+
