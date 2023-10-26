@@ -115,6 +115,7 @@ React Dashboard for POS sytem. Created to give a headup and fast paced for creat
 - [ ] Register Page
 - [ ] Multi-language Support
     - [ ] Khmer
+- [ ] 404 Page
 
 
 See the [open issues](https://github.com/panhabot/bagel-pos-frontend/issues) for a full list of proposed features (and known issues).
