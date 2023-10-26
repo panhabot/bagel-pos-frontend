@@ -12,14 +12,14 @@ export const TableCard: React.FC<Props> = ({ item }) => {
     if (item.reservation.length) {
       return "bg-[#facc15]";
     }
-    return item.status === "occupied" ? "bg-[#1a5d1a]" : "bg-black]";
+    return item.status === "occupied" ? "bg-[#1a5d1a]" : "bg-[black]";
   }, [item]);
   return (
     <Sheet>
       <SheetTrigger className=" col-span-1">
         <Card className="relative">
           <div
-            className={`absolute h-[5px] left-0 top-0 w-full rounded-tr-lg rounded-tl-lg  bg-black ${bgColor}`}
+            className={`absolute h-[5px] left-0 top-0 w-full rounded-tr-lg rounded-tl-lg  ${bgColor}`}
           ></div>
 
           <CardHeader className="">
