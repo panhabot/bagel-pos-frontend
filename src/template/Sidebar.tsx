@@ -50,8 +50,8 @@ export const Sidebar: React.FC<Props> = ({ className }) => {
           </Link>
         </li>
         <li>
-          <a
-            href=""
+          <Link
+            to={PageRoutes.TABLE}
             className="group flex items-center justify-between rounded-lg px-4 py-2 text-black hover:bg-gray-100 hover:text-gray-700"
           >
             <div className="flex items-center gap-2">
@@ -59,7 +59,7 @@ export const Sidebar: React.FC<Props> = ({ className }) => {
 
               <span className="text-sm "> Table </span>
             </div>
-          </a>
+          </Link>
         </li>
         <li>
           <Link
@@ -73,8 +73,8 @@ export const Sidebar: React.FC<Props> = ({ className }) => {
         </li>
 
         <li>
-          <a
-            href=""
+          <Link
+            to={PageRoutes.TABLE}
             className="group flex items-center justify-between rounded-lg px-4 py-2 text-black hover:bg-gray-100 hover:text-gray-700"
           >
             <div className="flex items-center gap-2">
@@ -86,7 +86,7 @@ export const Sidebar: React.FC<Props> = ({ className }) => {
             <span className="shrink-0 rounded-full bg-gray-100 px-3 py-0.5 text-xs text-gray-600 group-hover:bg-gray-200 group-hover:text-gray-700">
               3
             </span>
-          </a>
+          </Link>
         </li>
 
         <li>
