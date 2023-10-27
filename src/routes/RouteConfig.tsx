@@ -8,6 +8,7 @@ import { LoginPage } from "@/page/LoginPage";
 import { MenuPage } from "@/page/MenuPage";
 import { Toaster } from "@/components/ui/toaster";
 import { TableManagementPage } from "@/page/TableManagementPage";
+import { RegisterPage } from "@/page/RegisterPage";
 
 export const RouteConfig: React.FC = () => {
   return (
@@ -21,6 +22,7 @@ export const RouteConfig: React.FC = () => {
         </Route>
 
         <Route path={PageRoutes.LOGIN} element={<LoginPage />} />
+        <Route path={PageRoutes.REGISTER} element={<RegisterPage />} />
       </Routes>
       <Toaster />
     </>

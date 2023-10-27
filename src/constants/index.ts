@@ -6,4 +6,5 @@ export const PageRoutes = {
   MENU: "/menu",
   ACCOUNT: "/account",
   LOGIN: "/login",
+  REGISTER: "/register",
 };
