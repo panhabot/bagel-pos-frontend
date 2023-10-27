@@ -112,7 +112,7 @@ React Dashboard for POS sytem. Created to give a headup and fast paced for creat
     - [ ] Change User Setting
     - [ ] Change Theme
 - [x] Login Page
-- [ ] Register Page
+- [x] Register Page
 - [ ] Multi-language Support
     - [ ] Khmer
 - [ ] 404 Page
