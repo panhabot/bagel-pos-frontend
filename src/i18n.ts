@@ -10,7 +10,7 @@ import {
 } from "date-fns";
 import { enUS as en, km, th, vi, ms, zhCN, fi } from "date-fns/locale";
 
-const locales = {
+const locales : {[key: string]: Locale} = {
   en: en,
   km,
   th,

@@ -15,7 +15,6 @@ import { useAppStore } from "@/stores/AppStore";
 import { useLocation } from "react-router-dom";
 import { PageRoutes } from "@/constants";
 import { MobileMenu } from "@/template/MobileMenu";
-import { useTranslation } from "react-i18next";
 import i18next from "i18next";
 export const Header: React.FC = () => {
   const title = useAppStore((state) => state.pageTitle);
@@ -28,8 +27,6 @@ export const Header: React.FC = () => {
       setTitle(location.pathname);
     }
   }, [location]);
-
-  const { t } = useTranslation();
   const languages = [
     { value: "en", label: "English" },
     { value: "km", label: "ខ្មែរ" },
