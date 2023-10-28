@@ -11,12 +11,15 @@ import {
 } from "@radix-ui/react-icons";
 
 import React from "react";
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
 type Props = {
   className?: string;
 };
 export const Sidebar: React.FC<Props> = ({ className }) => {
+
+  const {t} = useTranslation();
   return (
     <aside className={className}>
       <div className="w-full h-[120px] flex items-center justify-center">
@@ -29,7 +32,9 @@ export const Sidebar: React.FC<Props> = ({ className }) => {
             className="flex items-center gap-2 rounded-lg hover:bg-gray-100 px-4 py-2 text-black"
           >
             <DashboardIcon />
-            <span className="text-sm "> Dashboard </span>
+            <span className="text-sm "> 
+              {t("dashboard")}
+             </span>
           </Link>
         </li>
 
@@ -41,7 +46,9 @@ export const Sidebar: React.FC<Props> = ({ className }) => {
             <div className="flex items-center gap-2">
               <ArchiveIcon />
 
-              <span className="text-sm "> Orders </span>
+              <span className="text-sm ">
+                {t("order")}
+              </span>
             </div>
 
             <span className="shrink-0 rounded-full bg-gray-100 px-3 py-0.5 text-xs text-gray-600 group-hover:bg-gray-200 group-hover:text-gray-700">
@@ -57,7 +64,9 @@ export const Sidebar: React.FC<Props> = ({ className }) => {
             <div className="flex items-center gap-2">
               <TableIcon />
 
-              <span className="text-sm "> Table </span>
+              <span className="text-sm ">
+                {t("table")}
+              </span>
             </div>
           </Link>
         </li>
@@ -68,7 +77,9 @@ export const Sidebar: React.FC<Props> = ({ className }) => {
           >
             <CardStackIcon />
 
-            <span className="text-sm "> Menu </span>
+            <span className="text-sm ">
+              {t("menu")}
+            </span>
           </Link>
         </li>
 
@@ -80,7 +91,9 @@ export const Sidebar: React.FC<Props> = ({ className }) => {
             <div className="flex items-center gap-2">
               <FileTextIcon />
 
-              <span className="text-sm "> Invoices </span>
+              <span className="text-sm ">
+                {t("report")}
+              </span>
             </div>
 
             <span className="shrink-0 rounded-full bg-gray-100 px-3 py-0.5 text-xs text-gray-600 group-hover:bg-gray-200 group-hover:text-gray-700">
