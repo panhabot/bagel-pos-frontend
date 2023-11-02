@@ -50,6 +50,7 @@ export const Header: React.FC = () => {
           <DropdownMenuContent className="mr-4">
           {languages.map((language) => (
               <DropdownMenuItem
+                key={language.value}
                 data-key={language.value}
                 onClick={(e) => {
                    i18next.changeLanguage(e.currentTarget.dataset.key);

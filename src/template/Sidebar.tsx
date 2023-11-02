@@ -33,7 +33,7 @@ export const Sidebar: React.FC<Props> = ({ className }) => {
           >
             <DashboardIcon />
             <span className="text-sm "> 
-              {t("dashboard")}
+              {t("common.dashboard")}
              </span>
           </Link>
         </li>
@@ -47,7 +47,7 @@ export const Sidebar: React.FC<Props> = ({ className }) => {
               <ArchiveIcon />
 
               <span className="text-sm ">
-                {t("order")}
+                {t("common.order")}
               </span>
             </div>
 
@@ -65,7 +65,7 @@ export const Sidebar: React.FC<Props> = ({ className }) => {
               <TableIcon />
 
               <span className="text-sm ">
-                {t("table")}
+                {t("common.table")}
               </span>
             </div>
           </Link>
@@ -78,7 +78,7 @@ export const Sidebar: React.FC<Props> = ({ className }) => {
             <CardStackIcon />
 
             <span className="text-sm ">
-              {t("menu")}
+              {t("common.menu")}
             </span>
           </Link>
         </li>
@@ -92,7 +92,7 @@ export const Sidebar: React.FC<Props> = ({ className }) => {
               <FileTextIcon />
 
               <span className="text-sm ">
-                {t("report")}
+                {t("common.report")}
               </span>
             </div>
 
@@ -109,7 +109,9 @@ export const Sidebar: React.FC<Props> = ({ className }) => {
           >
             <PersonIcon />
 
-            <span className="text-sm "> Account </span>
+            <span className="text-sm "> 
+              {t("common.account")}
+             </span>
           </a>
         </li>
       </ul>
