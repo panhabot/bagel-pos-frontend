@@ -1,0 +1,12 @@
+{
+    "common": {
+        "dashboard": "Dashboard",
+        "order": "Order",
+        "table": "Table",
+        "menu": "Menu",
+        "invoice": "Invoice",
+        "account": "Account",
+        "report": "Report",
+        "logout": "Logout"
+    }
+}
