@@ -57,7 +57,7 @@
     "autoprefixer": "^10.4.16",
     "eslint": "^8.45.0",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.4.3",
+    "eslint-plugin-react-refresh": "^0.4.4",
     "lodash": "^4.17.21",
     "postcss": "^8.4.31",
     "prettier": "^3.0.3",
