@@ -9,6 +9,7 @@ import { MenuPage } from "@/page/MenuPage";
 import { Toaster } from "@/components/ui/toaster";
 import { TableManagementPage } from "@/page/TableManagementPage";
 import { RegisterPage } from "@/page/RegisterPage";
+import { AccountPage } from "@/page/AccountPage";
 
 export const RouteConfig: React.FC = () => {
   return (
@@ -19,6 +20,7 @@ export const RouteConfig: React.FC = () => {
           <Route path={PageRoutes.ORDER} element={<OrderPage />} />
           <Route path={PageRoutes.MENU} element={<MenuPage />} />
           <Route path={PageRoutes.TABLE} element={<TableManagementPage />} />
+          <Route path={PageRoutes.ACCOUNT} element={<AccountPage />} />
         </Route>
 
         <Route path={PageRoutes.LOGIN} element={<LoginPage />} />

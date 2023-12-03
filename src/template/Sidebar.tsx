@@ -103,8 +103,8 @@ export const Sidebar: React.FC<Props> = ({ className }) => {
         </li>
 
         <li>
-          <a
-            href=""
+          <Link
+            to={PageRoutes.ACCOUNT}
             className="flex items-center gap-2 rounded-lg px-4 py-2 text-black hover:bg-gray-100 hover:text-gray-700"
           >
             <PersonIcon />
@@ -112,7 +112,7 @@ export const Sidebar: React.FC<Props> = ({ className }) => {
             <span className="text-sm "> 
               {t("common.account")}
              </span>
-          </a>
+          </Link>
         </li>
       </ul>
       <Link to={PageRoutes.LOGIN}>
